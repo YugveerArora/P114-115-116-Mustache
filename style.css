@@ -1,0 +1,33 @@
+h3{
+    font-size: 20px !important;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: thunder;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform: scaleX(-1);
+}
+
+@keyframes thunder{
+   0%{box-shadow: 1px 1px 100px yellowgreen;}
+    5%{box-shadow: 1px 1px 60px blue;}
+    10%{box-shadow: 1px 1px 60px rgb(255, 0, 0);}
+    15%{box-shadow: 1px 1px 60px aqua;}
+    20%{box-shadow: 1px 1px 60px orange;}
+    25%{box-shadow: 1px 1px 60px palevioletred;}
+    30%{box-shadow: 1px 1px 60px purple;}
+    35%{box-shadow: 1px 1px 60px green;}
+    40%{box-shadow: 1px 1px 60px lightskyblue;}
+    45%{box-shadow: 1px 1px 60px lightgrey;}
+    50%{box-shadow: 1px 1px 60px rgb(5, 200, 132);}
+    55%{box-shadow: 1px 1px 60px grey;}
+    60%{box-shadow: 1px 1px 60px rgb(2, 145, 254);}
+    65%{box-shadow: 1px 1px 60px grey;}
+    70%{box-shadow: 1px 1px 60px grey;}
+    75%{box-shadow: 1px 1px 60px grey;}
+}
